@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Bhargavi/static/css/main.34c3538c.css",
+    "main.js": "/Bhargavi/static/js/main.bf624663.js",
+    "index.html": "/Bhargavi/index.html",
+    "main.34c3538c.css.map": "/Bhargavi/static/css/main.34c3538c.css.map",
+    "main.bf624663.js.map": "/Bhargavi/static/js/main.bf624663.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.34c3538c.css",
+    "static/js/main.bf624663.js"
+  ]
+}
