@@ -1,38 +1,128 @@
-.App {
+/* src/App.css */
+body{
+  background-color: rgb(82, 203, 38);
+}
+.notes-app {
+  display: flex;
+ width: 100%;
+
+  flex-direction: column;
+  margin-top: 30px;
+  justify-content: center;
+  align-items: center;
+  margin-left: 20px;
   text-align: center;
+  font-family: Arial, sans-serif;
+
+
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.note-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 20px;
+}
+.search-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  margin-left: 80px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.search-input {
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  margin-right: 10px;
+ 
+  width: 230px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.search-button {
+  padding: 10px 20px;
+  border: none;
+  
+  background: #4f5c5e;
+  color: white;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.search-button:hover{
+  transform: scale(1.1);
+}
+
+.note {
+  background: #ffffff;
+  border: 1px solid #2d2c2c; /* Add border style */
+  border-radius: 4px;
+  padding: 10px;
+  
+  margin: 10px;
+  width: 250px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.note h2 {
+  margin: 0 0 10px;
+  font-size: 18px;
+}
+
+.note p {
+  margin: 0 0 10px;
+}
+
+
+.note h2 {
+  margin: 0 0 10px;
+  font-size: 18px;
+}
+
+.note p {
+  margin: 0 0 10px;
+}
+
+.note small {
+  color: #888;
+  margin-bottom: 10px;
+}
+
+.note button {
+  align-self: flex-end;
+  background: #ff5252;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  padding: 5px 10px;
+}
+
+form {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  margin-top: 20px;
+}
+
+form input,
+form textarea {
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  margin-bottom: 10px;
+  width: 250px;
+}
+
+form button {
+  padding: 10px;
+  border: none;
+  background: #2300d4;
   color: white;
+  border-radius: 4px;
+  cursor: pointer;
 }
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+form button:hover{
+  transform: scale(1.2);
 }
