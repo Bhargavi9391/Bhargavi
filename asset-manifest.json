@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/bhargavi/static/css/main.34c3538c.css",
-    "main.js": "/bhargavi/static/js/main.b90f4d57.js",
-    "index.html": "/bhargavi/index.html",
-    "main.34c3538c.css.map": "/bhargavi/static/css/main.34c3538c.css.map",
-    "main.b90f4d57.js.map": "/bhargavi/static/js/main.b90f4d57.js.map"
+    "main.css": "/Bhargavi/static/css/main.34c3538c.css",
+    "main.js": "/Bhargavi/static/js/main.b90f4d57.js",
+    "index.html": "/Bhargavi/index.html",
+    "main.34c3538c.css.map": "/Bhargavi/static/css/main.34c3538c.css.map",
+    "main.b90f4d57.js.map": "/Bhargavi/static/js/main.b90f4d57.js.map"
   },
   "entrypoints": [
     "static/css/main.34c3538c.css",
